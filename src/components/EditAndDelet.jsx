@@ -1,6 +1,6 @@
-import { motion } from "framer-motion";
 import { RiPencilFill } from "react-icons/ri";
-import { MdDeleteOutline } from "react-icons/Md";
+import { AiOutlineDelete} from "react-icons/ai";
+
 
 export const EditAndDelet = ({ onOpen, onDelete, setNoteId, id }) => {
   const onEditNotes = () => {
@@ -27,7 +27,7 @@ export const EditAndDelet = ({ onOpen, onDelete, setNoteId, id }) => {
                   hover:text-red-500"
           onClick={onDelete}
         >
-          <MdDeleteOutline className="hover:text-red-500" />
+          <AiOutlineDelete className="hover:text-red-500" />
           Eliminar
         </button>
       </div>
