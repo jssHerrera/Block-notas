@@ -6,7 +6,7 @@ Block de notas. 🎉[Demo](https://blocknotas.netlify.app/ "Demo")
 2. Redux
 3. TailwindCSS
 
-- https://watch-template.netlify.app/
+- https://blocknotas.netlify.app/
 
 ------------
 
